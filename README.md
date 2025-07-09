@@ -6,7 +6,7 @@ This project showcases my background, technical skills, projects, and experience
 ![Portfolio Screenshot](./screenshot.png) 
 
 ## 🚀 Live Demo
-👉 [View Live Site](https://yourusername.github.io/your-portfolio/)  
+👉 [View Live Site](https://loto-truong.vercel.app/)  
 *(Replace the link with your actual deployed site)*
 
 ---
