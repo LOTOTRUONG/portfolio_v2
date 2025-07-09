@@ -1,12 +1,35 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This project showcases my background, technical skills, projects, and experience as a developer.
 
-Currently, two official plugins are available:
+![Portfolio Screenshot](./screenshot.png) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 [View Live Site](https://yourusername.github.io/your-portfolio/)  
+*(Replace the link with your actual deployed site)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Features
+
+- 💼 About Me section
+- 🛠️ Skills and Tech Stack
+- 📁 Projects with descriptions, tech used, and links
+- 📝 Resume / CV download
+- 🌐 Language switching (i18n) *(if applicable)*
+- 📱 Responsive design for all screen sizes
+
+---
+
+## 🛠️ Built With
+
+- [React.js](https://reactjs.org/)
+- [Chakra UI](https://chakra-ui.com/) 
+- [Vite](https://vitejs.dev/) / Create React App
+- [i18next](https://www.i18next.com/)
+- [html2canvas](https://html2canvas.hertzen.com/) *(for image/PDF export if applicable)*
+
+---
+
+
