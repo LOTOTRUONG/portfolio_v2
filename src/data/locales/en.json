@@ -1,0 +1,220 @@
+{
+  "nav":
+  {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "project": "Project",
+    "contact": "Contact"
+  },
+  "home": {
+    "Hi": "Hi, I'm",
+    "name": "LOAN TRUONG",
+    "role": "Fullstack Developer",
+    "description": "I build exceptional digital experiences with both frontend finesse and backend expertise. Passionate about creating elegant solutions to complex problems.",
+    "buttons": {
+      "getInTouch": "Get in Touch",
+      "viewMyWork": "View My Work"
+    }
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "sectionTitle": "WHO I AM",
+    "description": "I’m passionate about creating intuitive, modern, and impactful digital experiences — whether through web platforms or mobile applications. With a strong background in both front-end and back-end development, I bring ideas to life through clean code, thoughtful design, and user-focused functionality.\n\nHere you’ll find a selection of my recent projects that reflect my dedication to quality, creativity, and innovation. Each one tells a story of challenges overcome and solutions delivered. If you’re looking for someone to help design or develop your next digital product, I’d love to hear from you. Let’s build something great together.",
+    "name": "Loan Truong",
+    "position": "Fullstack Developer",
+    "initials": "LT",
+    "cvText": "CV"
+  },
+  "education": {
+    "title": "EDUCATION",
+    "list": [
+      {
+        "year": "2017-2018",
+        "school": "University Paris Saclay, Orsay",
+        "text": "The SERP+ master is a two-year interdisciplinary programme in chemistry, physical-chemistry, and materials science, top management and entrepreneurship",
+        "site": "https://www.master-serp.eu/"
+      },
+      {
+        "year": "2019-2023",
+        "school": "Ecole Polytechnique, Palaiseau",
+        "text": "PhD in Materials Science and Engineering (Polytechnique)",
+        "site": "https://www.polytechnique.edu"
+      },
+      {
+        "year": "2023-2024",
+        "school": "AFPA, Roubaix",
+        "text": "Training in Application Design and Development at AFPA Roubaix",
+        "site": "https://www.afpa.fr/"
+      }
+    ]
+  },
+  "experience": {
+    "title": "WORK EXPERIENCE",
+    "list": [
+      {
+        "year": "2024 - Now",
+        "company": "Lamie mutuelle",
+        "city": "Macrq-en-Baroeul, France",
+        "description": "Currently working as a full-stack developer, responsible for the design and development of internal web and mobile applications. I manage both frontend and backend tasks, and contribute to automating internal processes. I also handle data processing and dashboard creation using Power BI to support business intelligence and decision-making.",
+        "logo": "/img/experience/lamie.jpg"
+      },
+      {
+        "year": "2019-2023",
+        "company": "Ecole Polytechnique",
+        "city": "Palaiseau, France",
+        "description": "Ph.D student in the field of Physics, with hands-on experience in simulation, data processing, and visualization. During the program, I conducted simulations for physical models and analyzed large experimental datasets using tools such as Power BI.",
+        "logo": "/img/experience/x.png"
+      },
+      {
+        "year": "2023-2024",
+        "company": "AFPA",
+        "city": "Roubaix, France",
+        "description": "Full-stack Java developer training, focused on both web and application development. Built several complete projects covering backend logic using Java (Spring Boot) and frontend interfaces with technologies like HTML, CSS, and JavaScript. Gained practical experience in developing, testing, and deploying full-stack solutions.",
+        "logo": "/img/experience/afpa.png"
+      }
+    ]
+  },
+  "project": {
+    "title": "PROJECTS",
+    "tabs": {
+      "all": "All",
+      "web": "Web Development",
+      "app": "Applications"
+    },
+    "list": [
+      {
+        "title": "RENOUVELLEMENT DE TARIF",
+        "subtitle": "DEVELOPPEMENT WEB",
+        "image": "/img/project/lamie.png",
+        "category": "web",
+        "year": 2025,
+        "description": " A web application that helps users automatically calculate annual rate increases based on defined parameters.\nIt provides a clear summary of results and allows users to export data on demand in both CSV and PDF formats for reporting or analysis.",
+        "techs": [
+          "React",
+          "Vite",
+          "CSS",
+          "JavaScript",
+          "Express",
+          "Azure"
+        ],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+      },
+      {
+        "title": "COMPTE RÉSULTATS",
+        "subtitle": "DEVELOPPEMENT WEB",
+        "image": "/img/project/lamie.png",
+        "category": "web",
+        "year": 2025,
+        "description": "A web platform that allows users to search for companies and view their financial performance by year.\nIt displays key indicators such as contributions, benefits paid, and balance results, with visual charts and detailed tables.\nUsers can also export the data in PDF format for reporting or documentation purposes.",
+        "techs": [
+          "React",
+          "Vite",
+          "CSS",
+          "JavaScript",
+          "Express",
+          "OpenDataSoft",
+          "PSQL"
+        ],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+      },
+      {
+        "title": "PORTFOLIO",
+        "subtitle": "DEVELOPPEMENT WEB",
+        "image": "/img/project/job1.png",
+        "category": "web",
+        "year": 2024,
+        "description": "A personal project I created to build a website to introduce myself.\nIt is a basic website using HTML, CSS, and JavaScript.\nThe header section includes navigation to help viewers jump directly to the desired section.",
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+      },
+      {
+        "title": "APPLICATION DE GESTION DE BIÈRES",
+        "subtitle": "APPLICATIONS",
+        "image": "/img/project/job3.png",
+        "category": "app",
+        "year": 2024,
+        "description": "The project was developed as part of the \"Application Design and Development\" course at AFPA.\nIt allows users to manage beers (name, color, type, manufacturer, country of origin), stock quantities,\nand invoices for sold beers.",
+        "techs": [
+          "Java",
+          "JavaFX",
+          "MySQL",
+          "CSS",
+          "Docker"
+        ],
+        "color": "#1e293b",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/Java-SDBM-Application"
+      },
+      {
+        "title": "APPLICATION DE COLLECTION",
+        "subtitle": "APPLICATIONS",
+        "image": "/img/project/job4.png",
+        "category": "app",
+        "year": 2024,
+        "description": "Group project developed at AFPA - Roubaix to manage various collections (coins, banknotes, stamps).\nI worked on the JavaFX interface, implemented Java functions, and handled SQL database connections",
+        "techs": [
+          "Java",
+          "JavaFX",
+          "MySQL",
+          "CSS",
+          "Docker"
+        ],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/JavaFx-SMLCollection"
+      },
+      {
+        "title": "APPLICATION RANDOM NUMBER",
+        "subtitle": "APPLICATIONS",
+        "image": "/img/project/icon.png",
+        "category": "app",
+        "year": 2024,
+        "description": "Build a number guessing game where the user tries to guess a randomly generated number within a set range.\nProvide feedback after each guess (too high, too low, correct) and limit the number of attempts.\nInclude options for multiple rounds and track the user's score based on performance.",
+        "techs": [
+          "Java",
+          "JavaFX",
+          "CSS"
+        ],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/JavaFX-RandomNumberGame"
+      }
+    ]
+  },
+  "contact" : {
+    "title": "GET IN TOUCH",
+    "subtitle_contact": "Contact Information",
+    "list": [
+      {
+        "email": "loan.truongtt@gmail.com",
+        "phone": "000000000",
+        "location": "Lille, France",
+        "workingDays": "Monday – Friday",
+        "workingHours": "9AM – 5PM"
+      }
+    ],
+    "workingDaysLabel": "Working Days",
+    "workingHoursLabel": "Working Hours",
+    "locationLabel": "Location",
+    "subtitle_message": "Leave a message",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send"
+    }
+  }
+}

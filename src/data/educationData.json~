@@ -1,0 +1,20 @@
+[
+  {
+    "year": "2017-2018",
+    "school": "University Paris Saclay, Orsay",
+    "text": "The SERP+ master is a two-year interdisciplinary programme in chemistry, physical-chemistry, and materials science, top management and entrepreneurship",
+    "site": "https://www.master-serp.eu/"
+  },
+  {
+    "year": "2019-2023",
+    "school": "Ecole Polytechnique, Palaiseau",
+    "text": "PhD in Materials Science and Engineering (Polytechnique)",
+    "site": "https://www.polytechnique.edu"
+  },
+  {
+    "year": "2023-2024",
+    "school": "AFPA, Roubaix",
+    "text": "Training in Application Design and Development at AFPA Roubaix",
+    "site": "www.reallygreatsite.com"
+  }
+]

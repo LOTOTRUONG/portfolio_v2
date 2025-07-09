@@ -1,0 +1,69 @@
+import React, { useState } from "react";
+import "./home.css";
+import About from "./About";
+import Contact from "./Contact";
+import Eucation from "./Education"
+import icons from "../assets/icons/Icon.js";
+
+export default function Home() {
+    const [section, setSection] = useState("home");
+    const [transition, setTransition] = useState("");
+
+
+    const goTo = (target) => {
+        setTransition("slide-out-left");
+        setTimeout(() => {
+            setSection(target);
+            setTransition("slide-in-right");
+        }, 300);
+    };    const isActive = (key) => (section === key ? "nav-active" : "");
+
+
+    return (
+        <div className="portfolio-container">
+            {/* Header */}
+            <header className="portfolio-header">
+                <h1 className="portfolio-logo">LOTO</h1>
+                <nav className="portfolio-nav nav-glow">
+                    <a onClick={() => goTo("home")} className={isActive("home")}>Home</a>
+
+                    <a onClick={() => goTo("about")} className={isActive("about")}>About</a>
+
+                    <a onClick={() => goTo("education")} className={isActive("education")}>Education </a>
+
+                    <a onClick={() => goTo("project")} className={isActive("project")}>Project</a>
+
+                    <a onClick={() => goTo("contact")} className={isActive("contact")}>Contact</a>
+                </nav>
+                <div className="portfolio-toggle">
+                    <div className="portfolio-toggle-circle" />
+                </div>
+            </header>
+
+            {/* Main section */}
+            <main className="portfolio-main full-height">
+                {section === "home" && (
+                    <div className={`portfolio-section ${transition}`}>
+                        <h2 className="portfolio-title">
+                        <span className="portfolio-gradient">PORTFOLIO</span>
+                        </h2>
+                        <div className="portfolio-content">
+                            <img
+                                src="/img/home.png"
+                                alt="Model"
+                                className="portfolio-image"
+                            />
+                        </div>
+                        <button className="arrow right" onClick={() => goTo("about")}>
+                            <img src={icons.arrowRight} alt="arrowRight" width={50} height={50}/>
+                        </button>
+                    </div>
+                )}
+
+                {section === "about" && <About goTo={goTo} transition={transition} />}
+                {section === "education" && <Education goTo={goTo} transition={transition} />}
+                {section === "contact" && <Contact goTo={goTo} ransition={transition} />}
+            </main>
+        </div>
+    );
+}

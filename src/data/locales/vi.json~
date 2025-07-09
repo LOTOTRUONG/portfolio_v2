@@ -1,0 +1,185 @@
+{
+  "nav" :
+  {
+    "home": "Trang chủ",
+    "about": "Tôi là ai",
+    "education": "Học vấn",
+    "experience": "Kinh nghiệm",
+    "project": "Dự án",
+    "contact": "Liên hệ"
+  },
+  "home": {
+    "Hi": "Xin chào, tôi là",
+    "name": "LOAN TRƯƠNG",
+    "role": "Lập trình viên Fullstack",
+    "description": "Tôi tạo ra những trải nghiệm số vượt trội nhờ vào sự tinh tế ở frontend và chuyên môn vững chắc ở backend. Đam mê việc tạo ra các giải pháp tinh gọn cho những vấn đề phức tạp.",
+    "buttons": {
+      "getInTouch": "Liên hệ với tôi",
+      "viewMyWork": "Xem công việc của tôi"
+    }
+  },
+  "about": {
+    "title": "VỀ TÔI",
+    "sectionTitle": "TÔI LÀ AI",
+    "description": "Tôi đam mê tạo ra những trải nghiệm số hiện đại, trực quan và ấn tượng — dù là trên nền tảng web hay ứng dụng di động. Với nền tảng vững chắc ở cả phát triển front-end và back-end, tôi biến ý tưởng thành hiện thực thông qua code sạch, thiết kế tinh tế và các chức năng lấy người dùng làm trung tâm.\n\nTại đây, bạn sẽ tìm thấy một số dự án gần đây của tôi, thể hiện sự cam kết với chất lượng, sự sáng tạo và đổi mới. Mỗi dự án đều kể một câu chuyện về thử thách và giải pháp được đưa ra. Nếu bạn đang tìm người đồng hành để thiết kế hoặc phát triển sản phẩm số tiếp theo, tôi rất mong được hợp tác cùng bạn. Hãy cùng nhau tạo nên điều tuyệt vời.",
+    "name": "Loan Trương",
+    "position": "Lập trình viên Fullstack",
+    "initials": "LT",
+    "cvText": "CV"
+  },
+  "education": {
+    "title": "HỌC VẤN",
+    "list": [
+      {
+        "year": "2017-2018",
+        "school": "Đại học Paris-Saclay, Orsay",
+        "text": "Chương trình thạc sĩ SERP+ kéo dài hai năm, liên ngành giữa hóa học, hóa lý, khoa học vật liệu, kết hợp với quản lý cấp cao và khởi nghiệp.",
+        "site": "https://www.master-serp.eu/"
+      },
+      {
+        "year": "2019-2023",
+        "school": "Trường Bách khoa Paris (École Polytechnique), Palaiseau",
+        "text": "Tiến sĩ ngành Khoa học và Kỹ thuật Vật liệu tại École Polytechnique.",
+        "site": "https://www.polytechnique.edu"
+      },
+      {
+        "year": "2023-2024",
+        "school": "AFPA, Roubaix",
+        "text": "Khóa đào tạo Thiết kế và Phát triển Ứng dụng tại AFPA Roubaix.",
+        "site": "https://www.afpa.fr/"
+      }
+    ]
+  },
+  "experience": {
+    "title": "KINH NGHIỆM LÀM VIỆC",
+    "list": [
+      {
+        "year": "2019-2023",
+        "company": "Trường Bách khoa Paris (École Polytechnique)",
+        "city": "Palaiseau, Pháp",
+        "description": "Nghiên cứu sinh tiến sĩ chuyên ngành Vật lý, có kinh nghiệm thực hành trong mô phỏng, xử lý và trực quan hóa dữ liệu. Trong quá trình học, tôi thực hiện mô phỏng các mô hình vật lý và phân tích tập dữ liệu thực nghiệm lớn bằng các công cụ như Power BI.",
+        "logo": "/img/experience/x.png"
+      },
+      {
+        "year": "2023-2024",
+        "company": "AFPA",
+        "city": "Roubaix, Pháp",
+        "description": "Tham gia khóa đào tạo lập trình viên Java full-stack, tập trung vào phát triển web và ứng dụng. Thực hiện nhiều dự án hoàn chỉnh bao gồm logic backend với Java (Spring Boot) và giao diện frontend bằng HTML, CSS, JavaScript. Có kinh nghiệm thực tế trong việc phát triển, kiểm thử và triển khai giải pháp full-stack.",
+        "logo": "/img/experience/afpa.png"
+      },
+      {
+        "year": "2024 - Nay",
+        "company": "Lamie mutuelle",
+        "city": "Marcq-en-Baroeul, Pháp",
+        "description": "Hiện đang làm việc với vai trò lập trình viên full-stack, chịu trách nhiệm thiết kế và phát triển các ứng dụng web và di động nội bộ. Tôi đảm nhận cả frontend và backend, đồng thời tham gia tự động hóa quy trình nội bộ. Tôi cũng xử lý dữ liệu và tạo dashboard bằng Power BI để hỗ trợ phân tích và ra quyết định.",
+        "logo": "/img/experience/lamie.jpg"
+      }
+    ]
+  },
+  "project": {
+    "title": "DỰ ÁN",
+    "tabs": {
+      "all": "Tất cả",
+      "web": "Phát triển Web",
+      "app": "Ứng dụng"
+    },
+    "list": [
+      {
+        "title": "TÍNH TOÁN GIA HẠN BIỂU PHÍ",
+        "subtitle": "PHÁT TRIỂN WEB",
+        "image": "/img/project/lamie.png",
+        "category": "web",
+        "year": 2025,
+        "description": "Một ứng dụng web giúp người dùng tự động tính toán mức tăng phí hàng năm dựa trên các tham số đã định.\nỨng dụng cung cấp bản tóm tắt kết quả rõ ràng và cho phép người dùng xuất dữ liệu theo yêu cầu dưới dạng CSV và PDF.",
+        "techs": ["React", "Vite", "CSS", "JavaScript", "Express", "Azure"],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+      },
+      {
+        "title": "BÁO CÁO KẾT QUẢ KINH DOANH",
+        "subtitle": "PHÁT TRIỂN WEB",
+        "image": "/img/project/lamie.png",
+        "category": "web",
+        "year": 2025,
+        "description": "Nền tảng web cho phép người dùng tra cứu công ty và theo dõi kết quả tài chính theo từng năm.\nHiển thị các chỉ số chính như phí đóng, chi trả quyền lợi và kết quả chênh lệch qua biểu đồ và bảng số liệu chi tiết.\nNgười dùng có thể xuất dữ liệu dưới dạng PDF phục vụ báo cáo hoặc lưu trữ.",
+        "techs": ["React", "Vite", "CSS", "JavaScript", "Express", "OpenDataSoft", "PSQL"],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+      },
+      {
+        "title": "PORTFOLIO",
+        "subtitle": "PHÁT TRIỂN WEB",
+        "image": "/img/project/job1.png",
+        "category": "web",
+        "year": 2024,
+        "description": "Dự án cá nhân tạo website giới thiệu bản thân.\nLà một website cơ bản sử dụng HTML, CSS và JavaScript.\nPhần tiêu đề có điều hướng giúp người xem chuyển nhanh tới các phần mong muốn.",
+        "techs": ["HTML", "CSS", "JavaScript"],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+      },
+      {
+        "title": "QUẢN LÝ KHO BIA",
+        "subtitle": "ỨNG DỤNG",
+        "image": "/img/project/job3.png",
+        "category": "app",
+        "year": 2024,
+        "description": "Dự án trong khóa học \"Thiết kế và phát triển ứng dụng\" tại AFPA.\nCho phép quản lý thông tin bia (tên, màu sắc, loại, nhà sản xuất, quốc gia), số lượng tồn kho và hóa đơn bán hàng.",
+        "techs": ["Java", "JavaFX", "MySQL", "CSS", "Docker"],
+        "color": "#1e293b",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/Java-SDBM-Application"
+      },
+      {
+        "title": "ỨNG DỤNG QUẢN LÝ BỘ SƯU TẬP",
+        "subtitle": "ỨNG DỤNG",
+        "image": "/img/project/job4.png",
+        "category": "app",
+        "year": 2024,
+        "description": "Dự án nhóm tại AFPA - Roubaix để quản lý các bộ sưu tập khác nhau (tiền xu, tiền giấy, tem).\nTôi phụ trách giao diện JavaFX, viết chức năng Java và kết nối cơ sở dữ liệu SQL.",
+        "techs": ["Java", "JavaFX", "MySQL", "CSS", "Docker"],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/JavaFx-SMLCollection"
+      },
+      {
+        "title": "TRÒ CHƠI ĐOÁN SỐ",
+        "subtitle": "ỨNG DỤNG",
+        "image": "/img/project/icon.png",
+        "category": "app",
+        "year": 2024,
+        "description": "Xây dựng trò chơi đoán số, nơi người dùng cố gắng đoán số ngẫu nhiên trong một khoảng nhất định.\nPhản hồi sau mỗi lượt đoán (quá cao, quá thấp, đúng) và giới hạn số lần thử.\nCó thể chơi nhiều lượt và tính điểm theo hiệu suất.",
+        "techs": ["Java", "JavaFX", "CSS"],
+        "color": "#f97316",
+        "demo": "#",
+        "source": "https://github.com/LOTOTRUONG/JavaFX-RandomNumberGame"
+      }
+    ]
+  },
+  "contact": {
+    "title": "LIÊN HỆ",
+    "subtitle_contact": "Thông tin liên hệ",
+    "list": [
+      {
+        "email": "loan.truongtt@gmail.com",
+        "phone": "000000000",
+        "location": "Lille, Pháp",
+        "workingDays": "Thứ Hai – Thứ Sáu",
+        "workingHours": "9 giờ sáng – 5 giờ chiều"
+      }
+    ],
+    "workingDaysLabel": "Ngày làm việc",
+    "workingHoursLabel": "Giờ làm việc",
+    "locationLabel": "Vị trí",
+    "subtitle_message": "Để lại lời nhắn",
+    "form": {
+      "name": "Họ và tên",
+      "email": "Email",
+      "subject": "Chủ đề",
+      "message": "Tin nhắn",
+      "submit": "Gửi"
+    }
+  }
+}

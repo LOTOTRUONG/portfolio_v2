@@ -1,0 +1,23 @@
+{
+  "buttons": [
+    {
+      "label": "Get in Touch",
+      "type": "primary"
+    },
+    {
+      "label": "View My Work",
+      "type": "outline"
+    }
+  ],
+  "socials": [
+    "github",
+    "linkedin",
+    "email"
+  ],
+  "avatar": "/img/home.png",
+  "startYear": 2024,
+  "links": {
+    "github": "https://github.com/LOTOTRUONG",
+    "linkedin": "https://www.linkedin.com/in/loto-truong/"
+  }
+}

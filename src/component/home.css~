@@ -1,0 +1,266 @@
+/* Layout chính */
+.portfolio-container {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: Figtree, sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Header */
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2rem;
+    max-width: 100vw;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.portfolio-logo {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.portfolio-nav {
+    display: flex;
+    gap: 4rem;
+}
+.nav-glow a {
+    color: white;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-active {
+    color: orange!important;
+    font-weight: bold;
+}
+
+.nav-glow a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.nav-glow a:hover::after {
+    opacity: 1;
+}
+
+.portfolio-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.portfolio-toggle {
+    width: 2.5rem;
+    height: 1.5rem;
+    background-color: orange;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.25rem;
+}
+
+.portfolio-toggle-circle {
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* Main */
+.full-height {
+    position: relative;
+    display: flex;
+    height: calc(100vh - 110px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-title {
+    font-size: 16rem;
+    font-weight: 1200;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    line-height: 1;
+    font-family: Bebas Neue, cursive;
+    margin: 0 0;
+}
+
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.portfolio-gradient {
+    display: inline-block;
+    background: linear-gradient(to right, #ff4d4d, #ffcc00, #00ffcc, #3399ff, #cc66ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: scaleIn 1.5s ease-out forwards, portfolioGlow 4s infinite ease-in-out;
+    transform-origin: center;
+}
+
+/* Content block với ảnh */
+.portfolio-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -3rem;
+    z-index: 2;
+    gap: 2rem;
+}
+@keyframes multicolorPulse {
+    0% {
+        filter: drop-shadow(0 0 10px #ff4d4d);
+    }
+    20% {
+        filter: drop-shadow(0 0 20px #ffcc00);
+    }
+    40% {
+        filter: drop-shadow(0 0 30px #00ffcc);
+    }
+    60% {
+        filter: drop-shadow(0 0 40px #3399ff);
+    }
+    80% {
+        filter: drop-shadow(0 0 30px #cc66ff);
+    }
+    100% {
+        filter: drop-shadow(0 0 10px #ff4d4d);
+    }
+}
+.portfolio-image {
+    max-height: 85vh;
+    object-fit: contain;
+    z-index: 2;
+    transition: filter 0.4s ease;
+    animation: multicolorPulse 3s infinite ease-in-out;
+}
+
+.portfolio-image:hover {
+    filter:
+            drop-shadow(0 0 20px #ff4d4d)
+            drop-shadow(0 0 30px #ffcc00)
+            drop-shadow(0 0 40px #00ffcc)
+            drop-shadow(0 0 50px #3399ff)
+            drop-shadow(0 0 60px #cc66ff);
+}
+
+
+/* Caption 2 bên */
+.portfolio-description-left,
+.portfolio-description-right {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Footer */
+.portfolio-footer {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+}
+
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+.arrow.right {
+    right: 30px;
+}
+
+.arrow.left {
+    left: 30px;
+}
+
+.portfolio-section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-in-right {
+    animation: slideIn 3s forwards;
+    z-index: 2;
+}
+
+.slide-out-left {
+    animation: slideOut 3s forwards;
+    z-index: 1;
+}
+
+.slide-hide {
+    display: none;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,91 @@
+/* Header */
+.education-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-title {
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--color-orange);
+}
+.light .education-title {
+    color: var(--color-black);
+}
+
+/* Cover image */
+.education-cover {
+    width: 150%;
+    max-height: 11rem;
+    border-radius: var(--radius-full);
+}
+
+/* Grid layout */
+.education-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Card */
+.edu-card {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    flex: 1;
+    min-width: 280px;
+    max-width: 340px;
+}
+.light .edu-card {
+    background-color: rgba(255, 165, 0, 0.35);
+}
+
+/* Year */
+.edu-year {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    color: var(--color-muted);
+}
+.light .edu-year {
+    color: var(--color-black);
+}
+
+/* School */
+.edu-school {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--color-orange);
+}
+.light .edu-school {
+    color: var(--color-black);
+}
+
+/* Description */
+.edu-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #eee;
+}
+.light .edu-text {
+    color: var(--color-black);
+}
+
+/* Site link / small detail */
+.edu-site {
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    color: var(--color-light-muted);
+}
+
+/* Navigation (if arrows or back/next buttons) */
+.edu-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+}

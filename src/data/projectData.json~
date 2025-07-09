@@ -1,0 +1,74 @@
+[
+  {
+    "title": "RENOUVELLEMENT DE TARIF",
+    "subtitle": "DEVELOPPEMENT WEB",
+    "image": "/img/project/lamie.png",
+    "category": "Web Development",
+    "year": 2025,
+    "description": " A web application that helps users automatically calculate annual rate increases based on defined parameters.\nIt provides a clear summary of results and allows users to export data on demand in both CSV and PDF formats for reporting or analysis.",
+    "techs": ["React", "Vite", "CSS", "JavaScript", "Express", "Azure Applications"],
+    "color": "#f97316",
+    "demo": "#",
+    "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+  },
+  {
+    "title": "COMPTE RÉSULTATS",
+    "subtitle": "DEVELOPPEMENT WEB",
+    "image": "/img/project/lamie.png",
+    "category": "Web Development",
+    "year": 2025,
+    "description": "A web platform that allows users to search for companies and view their financial performance by year.\nIt displays key indicators such as contributions, benefits paid, and balance results, with visual charts and detailed tables.\nUsers can also export the data in PDF format for reporting or documentation purposes.",
+    "techs": ["React", "Vite", "CSS", "JavaScript", "Express", "OpenDataSoft", "PSQL"],
+    "color": "#f97316",
+    "demo": "#",
+    "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+  },
+  {
+    "title": "PORTFOLIO",
+    "subtitle": "DEVELOPPEMENT WEB",
+    "image": "/img/project/job1.png",
+    "category": "Web Development",
+    "year": 2024,
+    "description": "A personal project I created to build a website to introduce myself.\nIt is a basic website using HTML, CSS, and JavaScript.\nThe header section includes navigation to help viewers jump directly to the desired section.",
+    "techs": ["HTML", "CSS", "JavaScript"],
+    "color": "#f97316",
+    "demo": "#",
+    "source": "https://github.com/LOTOTRUONG/lototruong.github.io"
+  },
+  {
+    "title": "APPLICATION DE GESTION DE BIÈRES",
+    "subtitle": "APPLICATIONS",
+    "image": "/img/project/job3.png",
+    "category": "Applications",
+    "year": 2024,
+    "description": "The project was developed as part of the \"Application Design and Development\" course at AFPA.\nIt allows users to manage beers (name, color, type, manufacturer, country of origin), stock quantities,\nand invoices for sold beers.",
+    "techs": ["Java", "JavaFX", "MySQL", "CSS", "Docker"],
+    "color": "#1e293b",
+    "demo": "#",
+    "source": "https://github.com/LOTOTRUONG/Java-SDBM-Application"
+  },
+  {
+    "title": "APPLICATION DE COLLECTION",
+    "subtitle": "APPLICATIONS",
+    "image": "/img/project/job4.png",
+    "category": "Applications",
+    "year": 2024,
+    "description": "Group project developed at AFPA - Roubaix to manage various collections (coins, banknotes, stamps).\nI worked on the JavaFX interface, implemented Java functions, and handled SQL database connections",
+    "techs": ["Java", "JavaFX", "MySQL", "CSS", "Docker"],
+    "color": "#f97316",
+    "demo": "#",
+    "source": "https://github.com/LOTOTRUONG/JavaFx-SMLCollection"
+  },
+  {
+    "title": "APPLICATION RANDOM NUMBER",
+    "subtitle": "APPLICATIONS",
+    "image": "/img/project/icon.png",
+    "category": "Applications",
+    "year": 2024,
+    "description": "Build a number guessing game where the user tries to guess a randomly generated number within a set range.\nProvide feedback after each guess (too high, too low, correct) and limit the number of attempts.\nInclude options for multiple rounds and track the user's score based on performance.",
+    "techs": ["Java", "JavaFX", "CSS"],
+    "color": "#f97316",
+    "demo": "#",
+    "source": "https://github.com/LOTOTRUONG/JavaFX-RandomNumberGame"
+  }
+]

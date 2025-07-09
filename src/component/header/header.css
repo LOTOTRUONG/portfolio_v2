@@ -1,0 +1,205 @@
+/* Header */
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 24px;
+    height: 70px;
+    position: relative;
+    z-index: 10;
+}
+
+.portfolio-logo {
+    width: 5%;
+}
+
+.portfolio-nav {
+    display: flex;
+    gap: 4rem;
+}
+.portfolio-nav a {
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.nav-active {
+    color: var(--color-orange) !important;
+    font-weight: bold;
+}
+.nav-glow a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.nav-glow a:hover::after {
+    opacity: 1;
+}
+
+.nav-link {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: dropDown 0.5s ease forwards;
+}
+
+@keyframes dropDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.language-dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.dark {
+    --dropdown-bg: #1e293b;
+}
+
+.light {
+    --dropdown-bg: white;
+}
+
+.lang-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--dropdown-bg, rgba(0,0,0,0.05));
+    border: none;
+    border-radius: 8px;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: inherit;
+    gap: 0.4rem;
+    transition: background-color 0.3s ease;
+}
+
+.lang-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.lang-icon {
+    font-size: 1rem;
+}
+
+.lang-caret {
+    font-size: 0.6rem;
+    margin-left: 2px;
+}
+
+.lang-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.3rem;
+    background-color: var(--dropdown-bg, white);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0.3rem 0;
+    z-index: 10;
+    min-width: 80px;
+}
+
+.lang-menu li {
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.2s;
+}
+
+.lang-menu li:hover {
+    background-color: #f97316;
+    color: white;
+}
+
+.lang-menu li.active {
+    font-weight: bold;
+    background-color: #e2e8f0;
+}
+
+/* Theme toggle */
+.theme-toggle {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    color: white;
+}
+
+.light .theme-toggle {
+    color: black;
+}
+.theme-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.dark .theme-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+@media (max-width: 768px) {
+    .portfolio-header {
+        flex-wrap: wrap;
+        z-index: 1000;
+    }
+
+    .portfolio-nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--color-dark-bg);
+        padding: 0.5rem 0;
+        text-align: center;
+        gap: 0.2rem;
+    }
+
+    .portfolio-nav a {
+        padding: 0.4rem 0;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .portfolio-nav.show {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1000;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 92%;
+        border-radius: 2rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

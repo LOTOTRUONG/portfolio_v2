@@ -1,0 +1,30 @@
+.portfolio-typewriter {
+    font-size: 5rem;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    background: linear-gradient(to right, #ff4d4d, #ffcc00, #00ffcc, #3399ff, #cc66ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0;
+}
+
+.caret {
+    display: inline-block;
+    width: 4px;
+    height: 1em;
+    background: white;
+    margin-left: 4px;
+    animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@media (max-width: 1024px) {
+    .portfolio-typewriter {
+        font-size: 3rem;
+    }
+}
